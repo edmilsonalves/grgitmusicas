@@ -1,0 +1,48 @@
+
+IDE: Eclipse Neon.3 Release (4.6.3)
+Banco de dados: Mysql
+Servidor:Apache Tomcat 8.5
+JAVA 1.8.0_12
+
+Spring
+Jquery
+Tema utilizado: adminLTE -  https://adminlte.io/themes/AdminLTE/index2.html
+
+
+
+o banco de dados será gerado automaticamente com o nome grgitDB, com as tabelas Musicas e Artista
+
+as midias cadastradas ficaram salvas em C:\grgitmusic, essa pasta será gerada automaticamente no cadastro do primeiro registro
+
+
+baixar o projeto
+https://github.com/edmilsonalves/grgitmusicas
+
+compilar o projeto
+
+adicionar no servidor
+
+iniciar o servidor
+
+acessar a URL http://localhost:8080/sistema-web/page/musicas.html
+pronto, agora basta utilizar o sistema
+
+
+
+OBS:
+para agilizar o dev foi criado uma chamada rest dentro do mesmo projeto, sem a necessidade de criar uma API.
+
+classes rest: MusicaRest 
+
+urls para chamada do serviço
+
+exemplo: pesquisa todos
+http://localhost:8080/sistema-web/rest/musicas/pesquisa
+
+exemplo: pesquisa por parte do nome da musica
+http://localhost:8080/sistema-web/rest/musicas/pesquisa?query=mu
+
+exemplo: pesquisa pelo ID
+http://localhost:8080/sistema-web/rest/musicas/1
+
+foi utilizado a extenção PostMan para testar as chamadas rest
