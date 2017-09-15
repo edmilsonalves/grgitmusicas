@@ -4,10 +4,10 @@ Banco de dados: Mysql
 Servidor:Apache Tomcat 8.5
 JAVA 1.8.0_12
 
-Spring
-Jquery
-Tema utilizado: adminLTE -  https://adminlte.io/themes/AdminLTE/index2.html
+utilizei Spring no desenvolvimento mais também posso criar o mesmo sistema em JSF se preferir.
 
+utilizei também
+Jquery e um tema para facilitar no desenvolvimento: adminLTE -  https://adminlte.io/themes/AdminLTE/index2.html
 
 
 o banco de dados será gerado automaticamente com o nome grgitDB, com as tabelas Musicas e Artista
